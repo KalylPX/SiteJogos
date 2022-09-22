@@ -24,7 +24,7 @@ function Menu() {
                         <button>Sobre</button>
                 </div>
             <div className="nome-pag2">
-                <p className="n2">Login</p>
+                <button className="n2">Login</button>
             </div>
         </div>
     );

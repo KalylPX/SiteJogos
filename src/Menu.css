@@ -27,16 +27,6 @@ body {
     margin: 30px;
 }
 
-.n1 {
-    color: #FF0000;
-}
-
-.n2 {
-    border-radius: 5px;
-    color: #FFF;
-    background-color: #FF0000;
-}
-
 .n2:hover {
     background-color: #EEE;
     color: #EA1D2C;
