@@ -1,9 +1,9 @@
-import Menu from "./Menu"
+import Menu from "./Menu";
 import Card from "./Card";
 import Rodape from "./Rodape";
-import "./Rodape"
-import "./App.css"
-import "./Card.css"
+import "./App.css";
+import "./Card.css";
+import "./Rodape.css";
 function App(){
 	const sites = [
 		{	
@@ -49,15 +49,6 @@ function App(){
 			botoes: "COMPRAR",
 		},
 	];
-
-	const rodapé = [
-		{
-			titulo: "CONTATO",
-			descricao1: "Ficou com alguma dúvida?",
-			descricao2: "estamos a disposição para lhe atender,",
-			descricao3: "nos envie uma mensagem!",
-		},
-	];
 	return(
 		
 		<div className="conteiner">
@@ -77,20 +68,7 @@ function App(){
 				})
 			}
 			</div>
-
-			<div className="final">
-			{
-				rodapé.map((textofinal) => {
-					return (
-						<Rodape titulo={textofinal.titulo}
-								descricao1={textofinal.descricao1}
-								descricao2={textofinal.descricao2}
-								descricao3={textofinal.descricao3}
-						/>
-					)
-				})
-			}
-			</div>
+			<Rodape/>
 		</div>
 		
 	);
