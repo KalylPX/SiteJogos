@@ -3,7 +3,7 @@ import Card from "./Card";
 import Rodape from "./Rodape";
 import "./App.css";
 import "./Card.css";
-import "./Rodape.css";
+import "./Rodape.css"
 function App(){
 	const sites = [
 		{	
@@ -68,6 +68,7 @@ function App(){
 				})
 			}
 			</div>
+			<Rodape/>
 		</div>
 		
 	);
