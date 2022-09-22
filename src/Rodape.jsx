@@ -33,7 +33,7 @@ function Rodape(){
                           </div>
                           <div class="col-sm-3 info">
                               <h5>INFORMAÇÕES</h5>
-                              <p> Somos uma loja de distribuição de jogos eletrônicos para Microsoft Windows e macOS. </p>
+                              <p> Somos uma loja de distribuição e vendas de jogos eletrônicos para Windows e MacOS. </p>
                           </div>
                       </div>
                   </div>
